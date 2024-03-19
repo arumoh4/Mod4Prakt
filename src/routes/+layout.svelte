@@ -1,6 +1,6 @@
 <nav>
     <div class="nav-container">
-        <a href="/" class="nav-logo" title="Back to Homepage">Имя Фамилия</a>
+        <a href="/" class="nav-logo" title="Back to Homepage">Екатерина Киселева</a>
         <div class="nav-links">
             {#each nav as link}
 				{#if link.isShow}
@@ -25,6 +25,11 @@
 		{
 			title: 'Блог',
 			href: '/blog',
+			isShow: true
+		},
+		{
+			title: 'Портфолио',
+			href: '/project',
 			isShow: true
 		},
 		{

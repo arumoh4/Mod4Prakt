@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Имя Фамилия</title>
+    <title>Екатерина Киселева</title>
 </svelte:head>
 
 <div class="container">
@@ -69,7 +69,7 @@
     }
 
     .background-div {
-        background-color: #ecebe8;
+        background-color: #e0ebee;
         width: 100%;
         height: 56vh;
         margin: -205px auto;
